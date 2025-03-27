@@ -1,0 +1,32 @@
+body {background-color: #fff;}
+header {position: absolute; left: 0; top: 0; right: 0; z-index: 100; padding: 7rem 2rem 0;}
+header .top {display: flex; justify-content: space-between}
+header .top div a {display: inline-block; width: 4rem; height: 4rem;}
+header .top div a.icon_location {background: url(../images/icon_map.png) no-repeat center / 2.3rem auto;}
+header .top div a.icon_alram {background: url(../images/icon_alram.png) no-repeat center / 2.3rem auto;}
+.logo a {display: block; width: 9.4rem; height: 4rem; background: url(../images/h1_logo.png) no-repeat 0 0 / 100% auto;}
+.btn_program_view{width: 4.5rem; height: 5rem; background:url(../images/bg_arrow_down.png) no-repeat center bottom 1rem / 1.2rem auto #fff; 
+    border-radius: 0 0 4.5rem 4.5rem; position: absolute; left: 50%; top: 0; transform: translateX(-50%); box-shadow: 0 0.5rem 0 rgba(0,0,0,0.1);}
+
+.gnb {padding: 2.5rem 0;}
+.gnb ul {display: flex; justify-content: space-between;}
+.gnb ul a {display: block; padding: 0 1.2rem; line-height: 3.5rem; color: #fff; font-weight: 500; font-size: 1.8rem; border-radius: 3.5rem;}
+.gnb ul .active a {color: #F17785; background-color: #fff;}
+
+.visual {border-radius: 0 0  5% 15%;}
+.visual .swiper-slide > div {padding: 0 0 11.7rem 4rem; height: 50rem; display: flex; justify-content: flex-end; flex-direction: column; box-sizing: border-box;}
+.visual .swiper-slide > div p {font-family: 'NanumSquareRound'; line-height: 2.76rem;}
+.visual .swiper-slide > div p span {color: #FFD8BC; font-size: 1.8rem; text-shadow: 0.15rem 0 rgba(0,0,0,0.15); font-weight:bold;}
+.visual .swiper-slide > div p em {display: block; color: #fff; font-size: 1.8rem; text-shadow: 0.15rem 0 rgba(0,0,0,0.15); font-weight:bold;}
+.visual .swiper-slide > div img {width: 7.5rem; padding: 0.6rem 0 1.5rem;}
+.visual .swiper-slide > div.visual_page1 {background:url(../images/bg_visual1.png) no-repeat right bottom / auto 28.6rem #F17785;}
+.visual .swiper-slide > div.visual_page2 {background:url(../images/bg_visual2.png) no-repeat right bottom / auto 28.6rem #ABCD05;}
+.visual .swiper-slide > div .btn_go {display: block; width: 5.25rem; line-height: 3rem; background: url(../images/bg_arrow_right.png) no-repeat right 1rem center / auto .8rem; border-radius: 3rem; background-color: #fff; color: #999999; padding: 0 0 0 1rem; font-size: 1.4rem;}
+
+.login_wrap {position: relative; z-index: 120; margin: -5rem auto; padding: 2rem; width: calc(100% - 4rem); height: 14.8rem; background-color: #fff; border-radius: 1.5rem; box-shadow: 0 .5rem 0 rgba(0,0,0,.1); box-sizing: border-box;}
+.login {font-size: 1.6rem; color: #999;}
+.login b {display: block; padding: 0 0 1.7rem; color: #333;}
+.login > div {text-align: center;}
+.btn_type1 {display: inline-block; padding: 0 3.4rem 0 1.2rem; line-height: 4rem; border-radius: 4rem; color: #fff; font-size: 1.4rem; background: url(../images/bg_arrow_right_white.png) no-repeat right 1.4rem center / 1rem auto;}
+.btn_type1.green {background-color: #ABCD05;}
+.btn_type1.gray {background-color: #999999;}
