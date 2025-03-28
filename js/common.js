@@ -20,5 +20,9 @@ $(function(){
                 }
             });
         }
+        const swiper2 = new Swiper('.thanks', {
+            spaceBetween: 30,
+            slidesPerView: 1.2,
+        });
 });
   
