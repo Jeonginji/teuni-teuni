@@ -24,5 +24,24 @@ $(function(){
             spaceBetween: 30,
             slidesPerView: 1.2,
         });
+
+        const swiper3 = new Swiper('.review_slide', {
+            spaceBetween: 30,
+            slidesPerView: 1.7,
+            breakpoints: {
+                370: {
+                    slidesPerView: 2,
+                },
+                500: {
+                    slidesPerView: 2.7,
+                },
+                700: {
+                    slidesPerView: 4,
+                  },
+            },
+            pagination: {
+                el: ".review_slide .paging",
+              },
+        });
 });
   

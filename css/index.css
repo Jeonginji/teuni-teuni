@@ -1,4 +1,4 @@
-body {background-color: #fff;}
+body {background-color: #F5F4F1;}
 header {position: absolute; left: 0; top: 0; right: 0; z-index: 100; padding: 7rem 2rem 0;}
 header .top {display: flex; justify-content: space-between}
 header .top div a {display: inline-block; width: 4rem; height: 4rem;}
@@ -41,8 +41,7 @@ header .top div a.icon_alram {background: url(../images/icon_alram.png) no-repea
 .logout ul li div span {position: absolute; right: -0.9rem; top: 0; padding: 0 0.4rem; border: .2rem solid #F17785; font-size: 1.1rem; color: #ABCD05; font-weight: 800; font-family: 'NanumSquareRound'; background: #fff; border-radius: 1.6rem; height: 1.6rem; box-sizing: border-box; box-shadow: 0 .2rem 0 rgba(0,0,0,.1);}
 
 .thanks {padding: 0 0 4rem 2rem;}
-.thanks .swiper-slide {}
-.thanks a {display: flex; flex-direction: column; min-height: 27.9rem; padding: 2rem; background: #fff; border-radius: 1.5rem; box-shadow: 0 0.5rem 0 rgba(0,0,0,.1); box-sizing: border-box;}
+.thanks a {display: flex; flex-direction: column; min-height: 27.9rem; background: #fff; padding: 2rem; border-radius: 1.5rem; box-shadow: 0 0.5rem 0 rgba(0,0,0,.1); box-sizing: border-box;}
 .thanks h3 {font-size: 1.6rem; color: #333; order: 2; padding: 2.7rem 0 0;}
 .thanks .txt { order: 3; padding: 1rem 0 ; font-size: 1.4rem; color: #666; line-height: 2.2rem;}
 .thanks .info {order: 1; display: flex; justify-content: space-between;}
@@ -50,8 +49,27 @@ header .top div a.icon_alram {background: url(../images/icon_alram.png) no-repea
 .thanks .info span {color: #ccc; font-size: 1.4rem;}
 .thanks .info2 {order: 4; height: 3rem; font-size: 1.4rem; color: #666; background: url(../images/btn_go.png) no-repeat right center / 3rem auto;}
 
+.review {background: #85D0C3;}
+.review .ad {padding: 3rem 2rem;}
+.review .ad img {width: 100%;}
+.review_slide {padding: 0 2rem;}
+.review_slide .clear {min-width: 17.25rem; padding: 0.8rem 1.3rem; background-color: #fff; border-radius: 1.5rem; box-shadow: 0 .5rem 0 rgba(0,0,0,.1); box-sizing: border-box;}
+.review_slide .right {float: right; color: #55827A;}
+.review_slide .right strong {font-size: 1.8rem;}
+.review_slide .right p {font-size: 1.4rem;}
+.review_slide .right span {font-size: 1.2rem; color: #78BCB0;}
+
+.review_slide .left {float: left; text-align: center;}
+.review_slide .left .thoumb {width: 6rem; height: 6rem; border-radius: 100%; border: .3rem solid #78bcb0; box-sizing: border-box; display: block;}
+.review_slide .left .logo {width: 4.25rem; margin-top: -0.95rem;}
+.review_slide .paging {padding: 2.1rem 0 0;}
+.review_slide .paging > span {width: .7rem; height: .7rem; background-color: #78BCB0; opacity: 1; border-radius: .7rem; transition: width .3s;}
+.review_slide .paging > span.swiper-pagination-bullet-active { width: 3rem; background-color:#fff;}
+
+
 .tit {display: flex; justify-content: space-between; padding:4rem 1.5rem 2rem;}
 .h2 {padding: 0 1.4rem; line-height: 3.5rem; border: .2rem solid #96938B;  border-radius: 3.5rem ; font-size: 1.6rem; color: #96938B; font-weight: 800; background-color: #fff;}
+.h2_2 {color: #fff; font-size: 1.8rem;}
 
 .btn_more {display: inline-block; width: 4rem; height: 3.5rem; background: url(../images/icon_more.png) no-repeat 0 center / 100% auto;}
 .btn_type1 {display: inline-block; padding: 0 3.4rem 0 1.2rem; line-height: 4rem; border-radius: 4rem; color: #fff; font-size: 1.4rem; background: url(../images/bg_arrow_right_white.png) no-repeat right 1.4rem center / 1rem auto;}
