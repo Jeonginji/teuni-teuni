@@ -43,5 +43,11 @@ $(function(){
                 el: ".review_slide .paging",
               },
         });
+
+        const swiper4 = new Swiper('.slide2', {
+            spaceBetween: 30,
+            slidesPerView: 2,
+            
+        });
 });
   
