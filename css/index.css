@@ -67,7 +67,7 @@ header .top div a.icon_alram {background: url(../images/icon_alram.png) no-repea
 .review_slide .paging > span.swiper-pagination-bullet-active { width: 3rem; background-color:#fff;}
 
 .news_list {background: #fff;}
-.slide2 {padding: 0 2rem 4.1rem;}
+.slide2 {padding: 0 2rem;}
 
 .tit {display: flex; justify-content: space-between; padding:4rem 1.5rem 2rem;}
 .h2 {padding: 0 1.4rem; line-height: 3.5rem; border: .2rem solid #96938B;  border-radius: 3.5rem ; font-size: 1.6rem; color: #96938B; font-weight: 800; background-color: #fff;}
@@ -84,3 +84,25 @@ header .top div a.icon_alram {background: url(../images/icon_alram.png) no-repea
 .list_type1 a div::before {content: ""; position:absolute; left: 0; right: 0;  top: 0;  bottom: 0; background:url(../images/btn_Play.png) no-repeat center / 3rem auto rgba(0,0,0,.4); border-radius: 1.5rem;}
 .list_type1 a strong {color: #333; font-size: 1.6rem; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;}
 .list_type1 a p {color: #999; font-size: 1.4rem; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+
+.product_list {padding: 0 0 3rem; background-color: #fff;}
+.list_type2 {display: flex; padding: 0 2rem;}
+.list_type2 li {width: calc(50% - 0.75rem);}
+.list_type2 li + li {padding-left: 1.5rem;}
+.list_type2 a {display: block;}
+.list_type2 a img {border-radius: 3rem; width: 100%;}
+.list_type2 a figcaption {padding: 1.25rem 0 0;}
+.list_type2 a figcaption strong {font-size: 1.5rem; color: #333;}
+.list_type2 a figcaption p {padding: .1rem 0 0.55rem; font-size: 1.4rem; color: #999;}
+.list_type2 a figcaption > span,
+.list_type2 a figcaption del {font-size: 1.2rem; color: #999;}
+.list_type2 a figcaption > div {display: flex; justify-content: space-between; font-size: 1.6rem; color: #9ABA00;}
+
+.star {width: 5.5rem; display: flex;}
+.star span {flex: 1; height: 2.4rem;}
+.star span + span {padding-left: .1rem;}
+.star span.on {background: url(../images/icon_star_on.png) no-repeat 0 0 / 100% auto;}
+.star span.off {background: url(../images/icon_star_off.png) no-repeat 0 0 / 100% auto;}
+
+.ellipsis {display: block; width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+hr {border-top: 1px solid #f5f5f5; border-bottom:  1px solid #f5f5f5; background: #fafafa; height: 1rem;}
