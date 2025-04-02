@@ -49,5 +49,20 @@ $(function(){
             slidesPerView: 2,
             
         });
+
+        $('.btn_program_view').on('click', function(){
+            $('.popup.type1').stop().animate({
+                top:0
+            }, 500);
+            $('.dimmed').fadeIn(300);
+            $('body').css('overflow','hidden')
+            });
+        $('.popup.type1 .btn_close').on('click', function(){
+            $(this).parents('.popup.type1').stop().animate({
+                top:-100 + '%'
+            }, 500);
+            $('.dimmed').fadeOut(300);
+            $('body').css('overflow','visible')
+            });
 });
   
