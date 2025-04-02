@@ -118,3 +118,26 @@ hr {border-top: 1px solid #f5f5f5; border-bottom:  1px solid #f5f5f5; background
 .list_type3 .info span {margin-left: 1.35rem;}
 .list_type3 .help {padding-left: 1.45rem; color: #999; background: url(../images/icon_help.png) no-repeat left center / 1.2rem auto;}
 .list_type3 .reply {padding-left: 1.45rem; color: #999; background: url(../images/icon_reply.png) no-repeat left center / 1.2rem auto;}
+
+.banner a {display: block; padding: 2.5rem 0 0 2rem; height: 14.6rem; background: url(../images/bg_ad.png) no-repeat right bottom / auto 100% #F17785; box-sizing: border-box;}
+.banner strong {font-size: 2.3rem; color: #fff;}
+.banner p {font-size: 1.4rem; color: #fff;}
+.banner span {display: inline-block; margin-top: .9rem; padding: 0 1rem; line-height: 2.3rem; background: #fff; border-radius: 2.3rem; font-size: 1rem; color: #F17785;}
+
+.list_type4 {padding: 0 2rem 4rem;}
+.list_type4 > li + li {padding-top: 2.7rem;}
+.list_type4 a {display: block;}
+.list_type4 a > div {display: flex; justify-content: space-between;}
+.list_type4 h3 {padding: 0 0 .6rem; color: #333; font-size: 1.6rem;}
+.list_type4 p {color: #666; font-size: 1.4rem;}
+.list_type4 .date {color: #666; font-size: 1.4rem;}
+
+.quick {position: fixed; left: 0; right: 0; bottom: 0; z-index: 200; height: 8rem; background-color: #fff; border-top: 2px solid #f1f1f1;}
+.quick ul {display: flex; padding: 1.5rem 2.35rem 0;}
+.quick li {flex: 1; padding: 0 1.5rem;}
+.quick li a {display: block; font-size: 1.4rem; color: #666; text-align: center;}
+.quick li a::before {content: ""; display: block; margin: 0 auto 1rem; width: 1.8rem; height: 2rem;}
+.quick li:nth-child(1) a::before {background: url(../images/icon_quick1.png) no-repeat center top / auto 100%;}
+.quick li:nth-child(2) a::before {background: url(../images/icon_quick2.png) no-repeat center top / auto 100%;}
+.quick li:nth-child(3) a::before {background: url(../images/icon_quick3.png) no-repeat center top / auto 100%;}
+.quick li:nth-child(4) a::before {background: url(../images/icon_quick4.png) no-repeat center top / auto 100%;}
