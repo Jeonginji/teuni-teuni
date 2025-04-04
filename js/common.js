@@ -50,19 +50,45 @@ $(function(){
             
         });
 
+        function bodyvisible(){
+            $('body').css('overflow','visible')
+        }
+        function bodyhidden(){
+            $('body').css('overflow','hidden')
+        }
+
         $('.btn_program_view').on('click', function(){
             $('.popup.type1').stop().animate({
                 top:0
             }, 500);
             $('.dimmed').fadeIn(300);
-            $('body').css('overflow','hidden')
-            });
+            bodyhidden();
+        });
         $('.popup.type1 .btn_close').on('click', function(){
             $(this).parents('.popup.type1').stop().animate({
                 top:-100 + '%'
             }, 500);
             $('.dimmed').fadeOut(300);
-            $('body').css('overflow','visible')
+            bodyvisible();
+        });
+
+        $('.btn_close_pop').on('click', function(){
+            $(this).parents('.popup .popup_wrap').animate({
+                bottom:-100 + '%'
+            }, 300, function(){
+                $('.popup.type2').fadeOut(200);
+            });
+        });
+
+        $('.btn_close_pop2').on('click', function(){
+            $(this).parents('.popup').fadeOut(200);
+            bodyvisible();
+            });
+
+        $('.open_popup').on('click', function(e){
+            $('.popup.type3').fadeIn(200);
+            bodyhidden();
+            e.preventDefault();
             });
 });
   
